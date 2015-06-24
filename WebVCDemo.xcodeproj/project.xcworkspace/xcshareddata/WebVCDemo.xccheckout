@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>599FBA93-E9F7-4946-A0FC-22B9E9180BB8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WebVCDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7E820382F4F1E2E72AC079EA9547A13F8E56805F</key>
+		<string>https://github.com/LeoiOS/WebVC.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WebVCDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7E820382F4F1E2E72AC079EA9547A13F8E56805F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LeoiOS/WebVC.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7E820382F4F1E2E72AC079EA9547A13F8E56805F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7E820382F4F1E2E72AC079EA9547A13F8E56805F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WebVCDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

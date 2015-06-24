@@ -22,8 +22,9 @@
     webView.delegate = self;
     [self.view addSubview:webView];
     
-    NSString *urlStr = @"http://zdl.mbox.duowan.com/phone/playerDetailNew.php?sn=%E7%BD%91%E9%80%9A%E5%9B%9B&target=%E5%B2%82%E5%81%95%E8%80%81%E4%B9%8B%E5%8F%AF%E6%9C%9F&v=101&OSType=iOS9.0&versionName=2.2.4";
-    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:urlStr]]];
+    self.urlStr = @"http://zdl.mbox.duowan.com/phone/playerDetailNew.php?sn=%E7%BD%91%E9%80%9A%E5%9B%9B&target=%E5%B2%82%E5%81%95%E8%80%81%E4%B9%8B%E5%8F%AF%E6%9C%9F&v=101&OSType=iOS9.0&versionName=2.2.4";
+    
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.URLString]]];
 }
 
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {

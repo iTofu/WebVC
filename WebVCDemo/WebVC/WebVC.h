@@ -10,4 +10,9 @@
 
 @interface WebVC : UIViewController
 
+/**
+ *  网址
+ */
+@property (nonatomic, copy) NSString *URLString;
+
 @end
