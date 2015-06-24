@@ -6,7 +6,7 @@ UIWebView + 自定义 Request 的 Header 中添加键值对 KeyValues
 在iOS网络开发中，有时候我们会碰到一种需求就是要求请求(Request)的Header中包含我们自定义的键值对(KeyValues)，每次请求都要这么设置。如果是正常的请求，是比较好办的，但是如果是使用UIWebView控件，就不太好办了。
 
 
-### 代码(已更新) Code
+### 代码 Code
 * 拖拽`WebVC`文件夹到你的项目中(文件夹在Demo中可以找到);
 * 根据你的需求在`WebVC.m`中添加修改你的键值对(KeyValues);
 * 在你需要使用的viewController中，`#import "WebVC.h"`;
@@ -19,7 +19,7 @@ UIWebView + 自定义 Request 的 Header 中添加键值对 KeyValues
   
   [self.navigationController pushViewController:webVC animated:YES];
   
-  [self presentViewController:webVC animated:YES completion:nil];
+  // [self presentViewController:webVC animated:YES completion:nil];
   ```
 
 
